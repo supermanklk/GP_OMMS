@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import BasicNotFound from './components/BasicNotFound';
-
+import UserTable from './components/UserTable';
 export default class NotFound extends Component {
   static displayName = 'NotFound';
 
@@ -12,7 +12,9 @@ export default class NotFound extends Component {
   render() {
     return (
       <div className="not-found-page">
-        <BasicNotFound />
+        {/* <BasicNotFound /> */}
+        {/* 用户信息展示 */}
+        <UserTable/>
       </div>
     );
   }
