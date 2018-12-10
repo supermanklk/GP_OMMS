@@ -5,7 +5,7 @@
 import HeaderAsideFooterLayout from './layouts/HeaderAsideFooterLayout';
 import Home from './pages/Home';
 import Page3 from './pages/Page3';
-import Login from './pages/Login';
+import LoginPage from './pages/LoginPage';
 import NotFound from './pages/NotFound';
 
 const routerConfig = [
@@ -19,16 +19,16 @@ const routerConfig = [
     layout: HeaderAsideFooterLayout,
     component: Page3,
   },
+  /* 如果想显示单独的页面,就不要使用 layout 将其包围*/
   {
-    path : '/firstLogin',
-    component : Login
+    path: '/loginPage',
+    component: LoginPage,
   },
   {
     path: '*',
     layout: HeaderAsideFooterLayout,
     component: NotFound,
   },
-  
 ];
 
 export default routerConfig;
