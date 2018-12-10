@@ -19,4 +19,4 @@
 * 页面文件: `src/pages`
 
 效果图:
-![screenshot](https://img.alicdn.com/tfs/TB1IM1JmuuSBuNjy1XcXXcYjFXa-1920-1080.png)
+![screenshot](http://supermanbin.oss-cn-beijing.aliyuncs.com/%E8%AF%BE%E7%A8%8B%E8%AE%BE%E8%AE%A1/back_ms/go_back_img1.png)
