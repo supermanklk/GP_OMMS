@@ -4,8 +4,8 @@
 
 import HeaderAsideFooterLayout from './layouts/HeaderAsideFooterLayout';
 import Home from './pages/Home';
-
 import Page3 from './pages/Page3';
+import Login from './pages/Login';
 import NotFound from './pages/NotFound';
 
 const routerConfig = [
@@ -20,10 +20,15 @@ const routerConfig = [
     component: Page3,
   },
   {
+    path : '/firstLogin',
+    component : Login
+  },
+  {
     path: '*',
     layout: HeaderAsideFooterLayout,
     component: NotFound,
   },
+  
 ];
 
 export default routerConfig;
