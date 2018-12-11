@@ -32,7 +32,7 @@ const asideMenuConfig = [
   },
   {
     name: '用户管理',
-    path: '/user',
+    path: '/userInfo',
     icon: 'yonghu',
   },
   {
@@ -49,21 +49,6 @@ const asideMenuConfig = [
         path: '/comment',
       },
     ],
-  },
-  {
-    name: '\u7B80\u4ECB',
-    path: '/page3',
-    icon: 'home',
-  },
-  {
-    name: 'firstLogin',
-    path: '/firstLogin',
-    icon: 'home',
-  },
-  {
-    name: 'loginPage',
-    path: '/loginPage',
-    icon: 'home',
   },
 ];
 

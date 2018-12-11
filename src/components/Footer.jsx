@@ -26,7 +26,7 @@ export default class Footer extends PureComponent {
               className="copyright-link"
               rel="noopener noreferrer"
             >
-              ICE
+              超人
             </a>
           </div>
         </div>

@@ -7,6 +7,7 @@ import Home from './pages/Home';
 import Page3 from './pages/Page3';
 import LoginPage from './pages/LoginPage';
 import NotFound from './pages/NotFound';
+import UserTable from './pages/UserTable';
 
 const routerConfig = [
   {
@@ -24,6 +25,13 @@ const routerConfig = [
     path: '/loginPage',
     component: LoginPage,
   },
+  /* 用户信息 */
+  {
+    path : '/userInfo',
+    layout: HeaderAsideFooterLayout,
+    component : UserTable,
+  },
+  /* 路径不存在展示的页面 */
   {
     path: '*',
     layout: HeaderAsideFooterLayout,
